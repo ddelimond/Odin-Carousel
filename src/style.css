@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.overlay-background{
+    position: fixed;
+    background-color: rgba(0,0,0,.9);
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.contentContainer{
+    position: absolute;
+    width: 95vw;
+    height: 95vh;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.topContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.bottomConatiner{
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContainer{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    background-color: white;
+}
+
+.imageContainer img{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.prev, .next{
+    width: 20%;
+    height: 60px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: xx-large;
+}
+
+.prev:hover, .next:hover{
+    cursor: pointer;
+}
+
+.pagContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagIcon{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+

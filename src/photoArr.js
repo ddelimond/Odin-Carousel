@@ -1,0 +1,28 @@
+import photo1 from './imgs/1.webp'
+import photo2 from './imgs/2.jpeg'
+import photo3 from './imgs/3.jpeg'
+import photo4 from './imgs/4.jpeg'
+import photo5 from './imgs/5.jpg'
+import photo6 from './imgs/6.jpeg'
+import photo7 from './imgs/7.webp'
+import photo8 from './imgs/8.jpeg'
+import photo9 from './imgs/9.webp'
+import photo10 from './imgs/10.jpeg'
+import photo11 from './imgs/11.webp'
+import photo12 from './imgs/12.webp'
+import photo13 from './imgs/4.png'
+import photo14 from './imgs/14.jpeg'
+import photo15 from './imgs/15.jpeg'
+import photo16 from './imgs/16.jpeg'
+import photo17 from './imgs/17.jpeg'
+import photo18 from './imgs/18.jpeg'
+import photo19 from './imgs/19.jpeg'
+import photo20 from './imgs/20.jpeg'
+import photo21 from './imgs/21.jpeg'
+import photo22 from './imgs/22.jpg'
+import photo23 from './imgs/23.webp'
+import photo24 from './imgs/24.webp'
+
+
+export const photoArr = [photo1,photo2,photo3,photo4,photo5,photo6,photo7,photo8,photo9,photo10,photo11,photo12,photo13,photo14,photo15,photo16,photo17,photo18,photo19,photo20,photo21,photo22,photo23,photo24]
+
