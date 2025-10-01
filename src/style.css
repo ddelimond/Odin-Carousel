@@ -83,12 +83,19 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 5px;
 }
 
 .pagIcon{
     width: 10px;
     height: 10px;
     border-radius: 50%;
+    background-color: grey;
+}
+
+.selectedPhoto{
+    width: 15px;
+    height: 15px;
     background-color: white;
 }
 
