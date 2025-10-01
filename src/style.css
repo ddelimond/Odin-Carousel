@@ -54,7 +54,7 @@ body{
 .imageContainer{
     width: 50%;
     height: 100%;
-    padding: 20px;
+    padding: 5px;
     background-color: white;
 }
 
@@ -91,6 +91,10 @@ body{
     height: 10px;
     border-radius: 50%;
     background-color: grey;
+}
+
+.pagIcon:hover{
+    cursor: pointer;
 }
 
 .selectedPhoto{

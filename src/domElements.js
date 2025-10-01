@@ -7,7 +7,5 @@ export let mainImg = document.querySelector('.mainImg');
 
 export let pagnationContainer = document.querySelector('.pagContainer');
 
-// export let photoPositionStrValue = mainImg.dataset.id;
+export let pagContainer = document.querySelector('.pagContainer');
 
-// export let photoPosition = Number(photoPositionStrValue);
-// export let arrLength = photoArr.length;
